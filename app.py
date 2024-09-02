@@ -3,6 +3,7 @@
 #function add numbers
 def add_numbers(num1, num2):
     return num1 + num2
+    
 
 #function is_even
 def is_even(number):
@@ -67,3 +68,47 @@ class Car:
 
     def display_info(self):
         print(f"Car Info: {self.year} {self.make} {self.model}")
+
+# output add_numbers
+result_add = add_numbers(10, 5)
+print("Add Numbers:", result_add)
+
+# output is_even
+result_even = is_even(4)
+print("Is Even:", result_even)
+
+# output reverse_string
+result_reverse = reverse_string("hello")
+print("Reverse String:", result_reverse)
+
+# output count_vowels
+result_vowels = count_vowels("Busted")
+print("Count Vowels:", result_vowels)
+
+# output calculate_factorial
+result_factorial = calculate_factorial(5)
+print("Calculate Factorial:", result_factorial)
+
+# output apply_decorator
+@apply_decorator
+def greet(name):
+    return f"Hello, {name}!"
+
+result_greet = greet("James")
+print("Apply Decorator:", result_greet)
+
+# output sort_by_age
+people = [("John", 30), ("Peter", 25), ("Charlie", 35)]
+result_sorted_people = sort_by_age(people)
+print("Sort by Age:", result_sorted_people)
+
+# output merge_dicts
+dict1 = {"a": 1, "b": 2}
+dict2 = {"b": 3, "c": 4}
+result_merge_dicts = merge_dicts(dict1, dict2)
+print("Merge Dictionaries:", result_merge_dicts)
+
+# class Car
+my_car = Car("Toyota", "Camry", 2020)
+print("Car Information:")
+my_car.display_info()
