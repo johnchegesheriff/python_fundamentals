@@ -109,6 +109,6 @@ result_merge_dicts = merge_dicts(dict1, dict2)
 print("Merge Dictionaries:", result_merge_dicts)
 
 # class Car
-my_car = Car("Toyota", "Camry", 2020)
+my_car = Car("Larmbogini", "Aventador", 2020)
 print("Car Information:")
 my_car.display_info()
